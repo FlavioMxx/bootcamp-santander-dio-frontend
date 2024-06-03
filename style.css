@@ -1,5 +1,6 @@
 body {
     background-color: #f7f7f7;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .headerImage {
@@ -8,6 +9,16 @@ body {
 }
 
 #title, .subtitle, .postTitle{
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
     color: #505050;
 }
 
@@ -32,4 +43,5 @@ body {
 .postContent {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
