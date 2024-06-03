@@ -1,19 +1,35 @@
 body {
-    background-color: gray;
+    background-color: #f7f7f7;
+}
+
+.headerImage {
+    border: 1px solid #505050;
+    border-radius: 50%;
 }
 
 #title, .subtitle, .postTitle{
-    color: blueviolet;
+    color: #505050;
 }
 
 .postTitle {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
-    background-color: white;
-    padding: 10px;
-    border: 3px solid black;
-    margin: 10px;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.postImage {
+    margin-bottom: 15px;
+}
+
+.postContent {
+    margin: 0;
+    margin-bottom: 15px;
 }
